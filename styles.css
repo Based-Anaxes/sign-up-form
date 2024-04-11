@@ -24,9 +24,22 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
+
 body {
 	line-height: 1;
+	display: flex;
 }
+
 ol, ul {
 	list-style: none;
+}
+
+.image {
+    background-color: red;
+    background-image: url(img/plant.jpg);
+	background-size: cover;
+	background-position: left;
+    width: 80%;
+    height: 100vh;
+    position: relative;
 }
