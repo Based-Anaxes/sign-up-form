@@ -52,8 +52,8 @@ ol, ul {
 
 .logo {
 	background-image: url(img/logo.svg);
-	width: 75%;
-	max-width: 75%;
+	width: 100%;
+	max-width: 100%;
 	min-height: 75%;
 	background-size: contain;
 	background-repeat: no-repeat;
