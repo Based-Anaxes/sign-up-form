@@ -51,7 +51,7 @@ ol, ul {
 }
 
 .logo {
-	background-image: url(img/aperture.svg);
+	background-image: url(img/logo.svg);
 	width: 75%;
 	max-width: 75%;
 	min-height: 75%;
@@ -87,7 +87,7 @@ ol, ul {
 }
 
 .form-card {
-	margin-top: 4rem;
+	margin: 4rem 0 0 0;
 	box-shadow: 2px 2px 5px 2px rgba(0, 0, 0, 0.2);
 	max-width: 100%;
 }
@@ -112,5 +112,8 @@ input {
 	margin: 0.2rem 0.1rem
 }
 
-
-
+button {
+	font-family: inherit;
+	font-weight: inherit;
+	margin-left: 3rem;
+}
