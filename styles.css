@@ -112,7 +112,8 @@ label {
 input {
 	width: 85%;
 	max-width: 85%;
-	margin: 0.2rem 0.1rem
+	margin: 0.2rem 0.1rem;
+	border: 2px solid #E5E7EB;
 }
 
 button {
