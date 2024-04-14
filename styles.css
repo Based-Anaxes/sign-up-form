@@ -116,6 +116,10 @@ input {
 	border: 2px solid #E5E7EB;
 }
 
+input[type="password"]:invalid {
+	border-color: #f00;
+}
+
 button {
 	font-family: inherit;
 	font-weight: inherit;
