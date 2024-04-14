@@ -30,7 +30,8 @@
                         <input type="text" id="last-name" name="user-last-name">
                     </label>
                     <label for="pass">Password
-                        <input type="password" id="pass" name="user-pass">
+                        <input type="password" id="pass" name="user-pass" 
+                        pattern="(?=^.{8,}$)((?=.*\d)|(?=.*\W+))(?![.\n])(?=.*[A-Z])(?=.*[a-z]).*$">
                     </label>
                     <label for="passConfirm">Confirm Password
                         <input type="password" id="passConfirm" name="confirmPass"
