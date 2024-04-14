@@ -33,7 +33,8 @@
                         <input type="password" id="pass" name="user-pass">
                     </label>
                     <label for="passConfirm">Confirm Password
-                        <input type="password" id="passConfirm" name="confirmPass">
+                        <input type="password" id="passConfirm" name="confirmPass"
+                        pattern="(?=^.{8,}$)((?=.*\d)|(?=.*\W+))(?![.\n])(?=.*[A-Z])(?=.*[a-z]).*$">
                     </label>
                 </fieldset>
             </div>
