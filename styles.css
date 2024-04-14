@@ -113,8 +113,14 @@ input {
 	width: 85%;
 	max-width: 85%;
 	margin: 0.2rem 0.1rem;
-	border: 2px solid #E5E7EB;
+	border: 1.5px solid #E5E7EB;
 	border-radius: 4px;
+}
+
+input:focus {
+	outline: none;
+	border-color: #00f;
+	box-shadow: 2px 2px 4px 1px rgba(0, 0, 0, 0.2);
 }
 
 input[type="password"]:invalid {
