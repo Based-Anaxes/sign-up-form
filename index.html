@@ -24,18 +24,18 @@
                 <fieldset>
                     <legend>Let's do this!</legend>
                     <label for="first-name">First Name
-                        <input type="text" id="first-name" name="user-first-name">
+                        <input type="text" id="first-name" name="user-first-name" required>
                     </label>
                     <label for="last-name">Last Name
-                        <input type="text" id="last-name" name="user-last-name">
+                        <input type="text" id="last-name" name="user-last-name" required>
                     </label>
                     <label for="pass">Password
                         <input type="password" id="pass" name="user-pass" 
-                        pattern="(?=^.{8,}$)((?=.*\d)|(?=.*\W+))(?![.\n])(?=.*[A-Z])(?=.*[a-z]).*$">
+                        pattern="(?=^.{8,}$)((?=.*\d)|(?=.*\W+))(?![.\n])(?=.*[A-Z])(?=.*[a-z]).*$" required>
                     </label>
                     <label for="passConfirm">Confirm Password
                         <input type="password" id="passConfirm" name="confirmPass"
-                        pattern="(?=^.{8,}$)((?=.*\d)|(?=.*\W+))(?![.\n])(?=.*[A-Z])(?=.*[a-z]).*$">
+                        pattern="(?=^.{8,}$)((?=.*\d)|(?=.*\W+))(?![.\n])(?=.*[A-Z])(?=.*[a-z]).*$" required>
                     </label>
                 </fieldset>
             </div>
